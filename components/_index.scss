@@ -1,0 +1,147 @@
+@import "../bases/listas.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Header Index */
+
+.header__nav {
+    padding: 0.8rem 0.5rem;
+}
+
+.header__nav img {
+    width: 40%;
+}
+
+.header__nav a {
+    font-size: nth($font-size, 4);
+    font-weight: nth($font-weight, 4);
+
+}
+
+.navbar-light li a {
+    color: nth($colores, 1) !important;
+
+}
+
+.navbar-light li a:hover {
+    color: nth($colores, 2) !important;
+    font-weight: nth($font-weight, 5) !important;
+}
+
+/* Fin Header Index */
+
+/* Main Index */
+
+.main__buscador {
+    margin: 1rem 0 4rem 0;
+}
+
+.main__buscador h3 {
+    color: nth($colores, 1);
+    font-weight: nth($font-weight, 6); 
+    font-size: nth($font-size, 4) ;
+    margin: 30px 0 55px 0;
+}
+
+.main__button {
+    display: flex;
+    align-items: flex-end;
+}
+
+.main__button__input {
+    color: nth($colores, 6);
+    border: nth($btn-border, 1);
+    border-radius: 15px;
+    background: nth($colores, 4);;
+    white-space: normal;
+    width: 7rem;
+    font-size: nth($font-size, 3);;
+    padding: 0 0.3rem;
+
+}
+
+input[type="submit"].btn:hover {
+    border: nth($btn-border, 2);
+    background: nth($colores, 5);;
+    color: #fff;
+}
+
+/* Fin Main Index */
+
+/* Footer Index */
+
+.footer__fondo {
+    background: nth($colores, 3);
+    padding: 0.5rem 0.5rem;
+}
+
+.footer__content {
+    color: nth($colores, 1);
+    font-size: nth($font-size, 4);
+    line-height: 1.5;
+    margin: 3px 0 0 3px;
+    font-size: nth($font-size, 2);
+}
+
+.footer__content h3 {
+    font-size: nth($font-size, 4);
+}
+
+.footer__content li {
+    list-style-type: square;
+}
+
+.footer__piePagina {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.footer__piePagina p {
+    font-size: nth($font-size, 3);
+    color: nth($colores, 1);
+}
+
+.footer__redesSociales {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.footer__redesSociales a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: nth($colores, 5);
+    border: nth($btn-border, 3);
+    border-radius: 50%;
+    text-align: center;
+    margin: 2px 15px 0 0;
+}
+
+.footer__redesSociales i {
+    font-size: 30px;
+    line-height: 38px;
+    transition: all 0.5s;
+}
+
+.footer__redesSociales a:hover {
+    background: nth($colores, 6);
+    color: nth($colores, 4);
+    border: nth($btn-border, 4);
+    transform: scale(1.5);
+}
+
+/* Fin Footer Index */
+
+
+

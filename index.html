@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedFarma.co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="row1 col-lg-12 header__nav">
+
+            <nav class="navbar navbar-expand-lg navbar-light">
+
+                <div class="container-fluid header__nav">
+                    <a class="nav-link" href="#"><img src="./img/logo1.png" alt="logo" class="header__img"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item nav-item-modification">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/cotizacion.html">Cotización</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/pedidos.html">Pedidos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/ordenes.html">Ordenes</a>
+                            </li>
+
+
+                            <li class="nav-item dropdown">
+
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        <aside class="row2 col-lg-12 aside_ancho">
+
+            <div id="carouselExampleControls" class="carousel slide imgnormalizada " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#"><img src="./img/publicidad1.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="./img/publicidad2.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="./img/publicidad3.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img src="./img/publicidad4.png" class="d-block w-100" alt="..."></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </aside>
+
+        <main class="row3 col-lg-12">
+
+            <div class="row g-4 main__buscador">
+                <div class="col-sm">
+                    <h3>¿Qué medicamento buscas?</h3>
+                    <input type="text" class="form-control" aria-label="Username">
+                </div>
+                <div class="col-sm">
+                    <h3>¿De qué laboratorio?</h3>
+                    <select class="form-select" aria-label="Zip">
+                        <option selected></option>
+                        <option value="1">Genfar (Precios desde $19.690)</option>
+                        <option value="2">MK (Precios desde $24.000)</option>
+                        <option value="3">Laprof (Precios desde $30.000)</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <h3>¿Donde quieres recibirlos?</h3>
+                    <input type="text" class="form-control" aria-label="Zip">
+                </div>
+                <div class="col-sm-2 main__button">
+                    <input class="btn main__button__input" type="submit" value="Buscar Medicamentos">
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="row4 col-lg-12">
+
+            <div class="row g-3 footer__fondo">
+
+                <div class="col-sm footer__content">
+                    <h3>REDFARMA.CO</h3>
+                    <ul>
+                        <li>8819 Ohio St.South Gate, CA 90280</li>
+                        <li>+ 1 386-688-3295</li>
+                        <li>contacto@redfarma.co</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm footer__piePagina">
+                    <p>RedFarma.co 2022. Todos los derechos reservados.</p>
+                </div>
+
+                <ul class="col-sm footer__redesSociales">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </ul>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

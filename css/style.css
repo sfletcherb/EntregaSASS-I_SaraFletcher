@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header Index */
+.header__nav {
+  padding: 0.8rem 0.5rem;
+}
+
+.header__nav img {
+  width: 40%;
+}
+
+.header__nav a {
+  font-size: 1rem;
+  font-weight: 450;
+}
+
+.navbar-light li a {
+  color: rgba(91, 91, 95, 0.8) !important;
+}
+
+.navbar-light li a:hover {
+  color: rgba(76, 88, 160, 0.8) !important;
+  font-weight: 500 !important;
+}
+
+/* Fin Header Index */
+/* Main Index */
+.main__buscador {
+  margin: 1rem 0 4rem 0;
+}
+
+.main__buscador h3 {
+  color: rgba(91, 91, 95, 0.8);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 30px 0 55px 0;
+}
+
+.main__button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main__button__input {
+  color: #fff;
+  border: 8px solid #03BECA;
+  border-radius: 15px;
+  background: #03BECA;
+  white-space: normal;
+  width: 7rem;
+  font-size: 0.8rem;
+  padding: 0 0.3rem;
+}
+
+input[type=submit].btn:hover {
+  border: 8px solid #4C58A0;
+  background: #4C58A0;
+  color: #fff;
+}
+
+/* Fin Main Index */
+/* Footer Index */
+.footer__fondo {
+  background: #d8e5ee;
+  padding: 0.5rem 0.5rem;
+}
+
+.footer__content {
+  color: rgba(91, 91, 95, 0.8);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 3px 0 0 3px;
+  font-size: 0.75rem;
+}
+
+.footer__content h3 {
+  font-size: 1rem;
+}
+
+.footer__content li {
+  list-style-type: square;
+}
+
+.footer__piePagina {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.footer__piePagina p {
+  font-size: 0.8rem;
+  color: rgba(91, 91, 95, 0.8);
+}
+
+.footer__redesSociales {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__redesSociales a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #4C58A0;
+  border: 1.8px solid #4C58A0;
+  border-radius: 50%;
+  text-align: center;
+  margin: 2px 15px 0 0;
+}
+
+.footer__redesSociales i {
+  font-size: 30px;
+  line-height: 38px;
+  transition: all 0.5s;
+}
+
+.footer__redesSociales a:hover {
+  background: #fff;
+  color: #03BECA;
+  border: 1.5px solid #03BECA;
+  transform: scale(1.5);
+}
+
+/* Fin Footer Index */
+
+/*# sourceMappingURL=style.css.map */
